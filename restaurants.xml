@@ -1,0 +1,63 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<restaurants>
+
+<id ="0">
+<name>Kabana</name>
+<cuisine>Indian</cuisine>
+<city>Berkeley</city>
+<open>12pm</open>
+<close>9pm</close>
+</id>
+
+<id ="1">
+<name>Cheeseboard</name>
+<cuisine>Italian</cuisine>
+<city>Berkeley</city>
+<open>11am</open>
+<close>8pm</close>
+</id>
+
+<id ="2">
+<name>The Butcher's sON</name>
+<cuisine>American</cuisine>
+<city>Berkeley</city>
+<open>9am</open>
+<close>8pm</close>
+</id>
+
+
+</restaurants> -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+<restaurant>
+    <id>0</id>
+    <name>Kabana</name>
+    <cuisine>Indian</cuisine>
+    <city>Berkeley</city>
+    <open>12pm</open>
+    <close>9pm</close>
+</restaurant>
+
+<restaurant>
+    <id>1</id>
+    <name>Cheeseboard</name>
+    <cuisine>Italian</cuisine>
+    <city>Berkeley</city>
+    <open>11am</open>
+    <close>8pm</close>
+    </id>
+</restaurant>
+
+<restaurant>
+    <id>2</id>
+    <name>The Butcher's Son</name>
+    <cuisine>American</cuisine>
+    <city>Berkeley</city>
+    <open>9am</open>
+    <close>8pm</close>
+</restaurant>
+
+</list>
