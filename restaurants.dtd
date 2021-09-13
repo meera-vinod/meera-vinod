@@ -1,29 +1,14 @@
-<!-- <?xml version="1.0" encoding="UTF-8"?> -->
-<!--DTD FOR A RESTAURANT-->
-<!--RESTAURANT METADATA-->
-
-<!-- <!ELEMENT restaurants(id)>
-<!ELEMENT id(name,cuisine,city,open,close)>
-<!ELEMENT name(#PCDATA)>
-<!ELEMENT cuisine(#PCDATA)>
-<!ELEMENT city(#PCDATA)>
-<!ELEMENT open(#PCDATA)>
-<!ELEMENT close(#PCDATA)>
-
-DTD DEFINITION OVER -->
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!--DTD FOR A RESTAURANT-->
 <!--RESTAURANT METADATA-->
 
-<!ELEMENT list (restaurant+)>
-<!ELEMENT restaurant(id,name,cuisine,city,open,close)>
+<!ELEMENT restaurants (restaurant+)>
+<!ELEMENT restaurant (id,name,cuisine,city,open,close)>
 <!ELEMENT id(#PCDATA)>
 <!ELEMENT name(#PCDATA)>
 <!ELEMENT cuisine(#PCDATA)>
 <!ELEMENT city(#PCDATA)>
 <!ELEMENT open(#PCDATA)>
 <!ELEMENT close(#PCDATA)>
-
 <!--DTD DEFINITION OVER-->
+
